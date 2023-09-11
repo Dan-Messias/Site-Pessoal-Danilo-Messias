@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(37,37,39);
+}
+
+#cartao-de-visita {
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    height: 150px;
+    padding-top: 43px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#cartao {
+    width: 50%;
+	margin: auto;
+}
+
+.cartao1 {
+    display: block;
+	margin: auto;
+    margin-bottom: 20px;
+    align-items: center;
+    border: solid 3px;
+    height: 350px;
+}
+
+.cartao2 {
+    display: block;
+	margin: auto;
+    margin-bottom: 20px;
+    border: solid 3px;
+    border-radius: 5px;
+    height: 412px;
+}
+
+.cartao3 {
+    display: block;
+	margin: auto;
+    margin-bottom: 20px;
+    border: solid 3px;
+    height: 362px;
+}
+
+.cartao4 {
+    display: block;
+	margin: auto;
+    margin-bottom: 60px;
+    border: solid 3px;
+    height: 606px;
+}
+
+#redes-sociais {
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    height: 150px;
+    padding-top: 43px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#midia-redes-sociais div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
