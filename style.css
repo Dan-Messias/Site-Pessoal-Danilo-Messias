@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+nav {
+    flex-direction: row;
+}
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+}
+
+#menu-h ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+    width: 100%;
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    font-size: 25px;
+    font-weight: bolder;
+    height: 55px;
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(228, 13, 13);
+    transition: 1s;
+}
+
+#menu-h ul li:last-child a {
+    float: left;
+}
+
+.foto_danilo{  
+    display: block;  
+    margin: auto;
+    margin-top: 60px;
+    height: 300px;
+}
+
+.nome_central{
+    color: white;
+    font-size: 50px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 23px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-top: 20px ;
+}
+
+#sobre_mim {
+    margin-top: 14px;
+}
+
+#texto-sobre-mim {
+    padding-top: 200px;
+}
+
+.face {
+    display: block;
+    margin: auto;
+    height: 60px;
+    margin-left: 40px;
+}
+
+.instagram{
+    display: block;
+    margin: auto;
+    height: 60px;
+    margin-left: 40px;
+}
+
+.linkedin{
+    display: block;
+    margin: auto;
+    height: 60px;
+    margin-left: 8px;
+    border-radius: 20px;
+    margin-left: 45px;
+}
+
+.github{
+    display: block;
+    margin: auto;
+    height: 60px;
+    margin-left: 25px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.fieldset-sobremim {
+    color: white;
+    background-color: rgb(37, 37, 39);
+    width: 1348px;
+}
+
+.foto-sobre-mim {
+    display: block;
+    margin: auto;
+    width: 200vh;
+    margin-bottom: 10px;
+}
+
+#div-foto-sobre-mim {
+    width: 50%;
+	margin: auto;
+}
+
+#portfolio {
+    align-items: right;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+    font-size: 25px;
+}
+
+p {
+    background-color: rgb(37, 37, 39);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+#essa {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 30px;
+    padding-left: 23px;
+    padding-right: 20px;    
+}
+
+#campo-portfolio {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container2 {
+    width: 50%;
+	margin: auto;
+    background-color: rgb(37, 37, 39);
+    display: flex;
+    padding-top: 20px;
+    width: 1200px;
+    padding-bottom: 50px;
+}
+
+.fieldset-portfolio {
+    color: white;
+    background-color: rgb(37, 37, 39);
+    width: 1348px;
+}
+
+.div-trabalhos {
+    background-color: rgb(37, 37, 39);
+    width: 50%;
+	margin: auto;
+    width: 1200px;
+}
+
+.div-sites1 {
+    background-color: rgb(37, 37, 39);
+    width: 50%;
+	margin: auto;
+}
+
+.elemento1 {
+    background-color: rgb(37, 37, 39);
+    height: 240px;
+    padding-top: 30px;
+    margin-top: 20px;
+    display: block;
+	margin: auto;
+    padding-right: 380px;
+    padding-left: 100px;
+}
+
+.elemento2 {
+    background-color: rgb(37, 37, 39);
+    height: 240px;
+    padding-top: 30px;
+    margin-top: 20px;
+    display: block;
+	margin: auto;
+    padding-right: 20px;
+}
+
+h4 {
+    color: white;
+    text-shadow: 2px 4px black;
+    background-color: rgb(37, 37, 39);
+    font-size: 25px;
+    text-align: center;
+    width: 550px;
+}
+
+.h4-trabalhos{
+    padding-right: 100px;
+    margin-top: 20px;
+}
+
+.h4-sites{
+    padding-right: 5px;
+    margin-top: 20px;
+}
+
+#div-portfolio {
+    display: flex;
+    width: 1000px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+.logos {
+    display: flex;
+    align-items: center;
+    padding-bottom: 70px;
+    justify-content: center;
+}
+
+#div-foto-danilo {
+    width: 50%;
+    margin: auto;
+}
+
+#div-contato {
+    background-color:rgb(37, 37, 39);
+    display: flex;
+}
+
+.fieldset-contato {
+    color: white;
+    background-color: rgb(37, 37, 39);
+    width: 1348px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+#campo-contato {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 30px;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container3 {
+    display: flex;
+    background-color:rgb(37, 37, 39);
+    justify-content: space-around;
+}
+
+.email {
+    background-color: rgb(37, 37, 39);
+    padding-top: 30px;
+}
+
+.img-email{
+    height: 100px;
+}
+
+.telefone{
+    background-color:rgb(37, 37, 39);
+    padding-top: 30px;
+}
+
+.img-telefone{
+ height: 100px;
+}
+
+.sombra {
+    background-color:rgb(37, 37, 39);
+}
+
+h5 {
+    background-color:rgb(37, 37, 39);
+    text-shadow: 2px 4px black;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#div-sites {
+    background-color:rgb(37, 37, 39);
+    margin-top: 30px;
+}
+
+.fieldset-categorias {
+    color: white;
+    background-color: rgb(37, 37, 39);
+}
+
+#campo-sites {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 30px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#menu-fotografia ul li{
+    background-color: rgb(37, 37, 39);
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-decoration: none;
+    list-style: none;
+}
+#menu-fotografia ul li a{
+    background-color: rgb(37, 37, 39);
+    color: white;
+    cursor: pointer;
+}
+
+#registro {
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
