@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+#div-sites {
+    background-color:rgb(37, 37, 39);
+    margin-top: 30px;
+}
+
+.fieldset-categorias {
+    color: white;
+    background-color: rgb(37, 37, 39);
+}
+
+#campo-sites {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 30px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#menu-fotografia ul li{
+    background-color: rgb(37, 37, 39);
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-decoration: none;
+    list-style: none;
+}
+#menu-fotografia ul li a{
+    background-color: rgb(37, 37, 39);
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
